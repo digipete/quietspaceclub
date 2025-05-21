@@ -1,5 +1,5 @@
 # Basic Configuration
-baseURL = '/'
+baseURL = 'https://digipete.github.io/quietspaceclub/'
 languageCode = 'en-us'
 title = 'Quiet Space Club'
 theme = 'hugo-saasify-theme'
