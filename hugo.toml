@@ -20,10 +20,7 @@ enableGitInfo = true      # Enable Git info for lastmod
 [build]
   writeStats = true      # Required for TailwindCSS
 
-# images cache
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+
 
 # Required Markup Configuration
 [markup]
