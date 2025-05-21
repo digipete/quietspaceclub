@@ -4,6 +4,11 @@ languageCode = 'en-us'
 title = 'Quiet Space Club'
 theme = 'hugo-saasify-theme'
 
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # Required Features
 pygmentsCodeFences = true  # Enable syntax highlighting
 pygmentsUseClasses = true
