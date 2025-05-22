@@ -69,7 +69,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://digipete.github.io/quietspaceclub/"
+            --baseURL https://digipete.github.io/quietspaceclub/
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache Save
         id: cache-save
