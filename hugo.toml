@@ -39,7 +39,7 @@ enableGitInfo = true      # Enable Git info for lastmod
 [params]
   description = 'Your site description'
   author = 'Your Name'
-  logo = '/quietspaceclub/images/logo.svg'      # Path to your logo
+  logo = '../images/logo.svg'      # Path to your logo
   # Google Analytics ID (e.g., 'G-XXXXXXXXXX')
   googleAnalytics = 'G-XXXXXXXXXX'  # Only enabled in production
 
@@ -50,7 +50,7 @@ enableGitInfo = true      # Enable Git info for lastmod
     
     # Header Logo
     [params.header.logo]
-      src = '/quietspaceclub/images/logo.jpg'
+      src = '../images/images/logo.jpg'
     
     # Header Buttons (optional)
     [params.header.buttons]
@@ -71,7 +71,7 @@ enableGitInfo = true      # Enable Git info for lastmod
       url = '/get-started'
     [params.cta.secondary_button]
       text = 'Book Demo'
-      url = '/demo'
+      url = '../demo'
 
   # Social Media Links (optional)
   [params.social]
