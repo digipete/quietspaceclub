@@ -50,7 +50,7 @@ enableGitInfo = true      # Enable Git info for lastmod
     
     # Header Logo
     [params.header.logo]
-      src = '/images/logo.jpg'
+      src = '/quietspaceclub/images/logo.jpg'
     
     # Header Buttons (optional)
     [params.header.buttons]
