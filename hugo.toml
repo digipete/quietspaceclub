@@ -50,7 +50,7 @@ enableGitInfo = true      # Enable Git info for lastmod
     
     # Header Logo
     [params.header.logo]
-      src = '../images/images/logo.jpg'
+      src = '../images/logo.jpg'
     
     # Header Buttons (optional)
     [params.header.buttons]
@@ -71,7 +71,7 @@ enableGitInfo = true      # Enable Git info for lastmod
       url = '/get-started'
     [params.cta.secondary_button]
       text = 'Book Demo'
-      url = '../demo'
+      url = '/demo'
 
   # Social Media Links (optional)
   [params.social]
