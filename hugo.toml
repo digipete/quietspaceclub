@@ -39,7 +39,7 @@ enableGitInfo = true      # Enable Git info for lastmod
 [params]
   description = 'Your site description'
   author = 'Your Name'
-  logo = '/images/logo.svg'      # Path to your logo
+  logo = '/quietspaceclub/images/logo.svg'      # Path to your logo
   # Google Analytics ID (e.g., 'G-XXXXXXXXXX')
   googleAnalytics = 'G-XXXXXXXXXX'  # Only enabled in production
 
