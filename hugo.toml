@@ -75,7 +75,7 @@ enableGitInfo = true      # Enable Git info for lastmod
 
   # Social Media Links (optional)
   [params.social]
-    linkedin = 'https://linkedin.com/in/quietspaceclub'
+    linkedin = 'https://www.linkedin.com/company/quietspaceclub'
     twitter = 'https://twitter.com/quietspaceclub'
     github = 'https://github.com/digipete/quietspaceclub'
 
