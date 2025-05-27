@@ -1,19 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  presets: [require('./themes/hugo-saasify-theme/tailwind.config.js')],
+  content: [
+    "./themes/hugo-saasify-theme/layouts/**/*.html",
+    "./layouts/**/*.html",
+    "./content/**/*.{html,md}"
+  ],
   theme: {
     extend: {
-      colors: {
-        primary: '#6ea8d9',
-        secondary: '#cde0c9',
-        background: '#f8f9fa',
-        text: '#333333',
-      },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        serif: ['Lora', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        heading: ['Plus Jakarta Sans', 'sans-serif'],
       },
+      colors: {
+        primary: {
+          'primary':'#F72984'
+        },
+        secondary: {
+          'secondary':'#82053C'
+        }
+      }
     },
   },
-  variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ],
 }
