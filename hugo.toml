@@ -56,10 +56,10 @@ enableGitInfo = true      # Enable Git info for lastmod
     [params.header.buttons]
       [params.header.buttons.signIn]
         text = 'Sign in'
-        url = '/signin'
+        url = 'signin'
       [params.header.buttons.getStarted]
         text = 'Get Started'
-        url = '/get-started'
+        url = 'get-started'
 
   # Global CTA Configuration (optional)
   [params.cta]
@@ -68,21 +68,21 @@ enableGitInfo = true      # Enable Git info for lastmod
     description = 'Join companies using our platform'
     [params.cta.primary_button]
       text = 'Get Started Free'
-      url = '/get-started'
+      url = 'get-started'
     [params.cta.secondary_button]
       text = 'Book Demo'
-      url = '/demo'
+      url = 'demo'
 
   # Social Media Links (optional)
   [params.social]
-    linkedin = 'https://linkedin.com/in/yourusername'
-    twitter = 'https://twitter.com/yourusername'
-    github = 'https://github.com/yourusername'
+    linkedin = 'https://linkedin.com/in/quietspaceclub'
+    twitter = 'https://twitter.com/quietspaceclub'
+    github = 'https://github.com/digipete/quietspaceclub'
 
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+# [caches]
+ # [caches.images]
+ #   dir = ':cacheDir/images'
 
 # Navigation Menu
 [menu]
@@ -92,14 +92,14 @@ enableGitInfo = true      # Enable Git info for lastmod
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = 'Feature 1', url = '/features/feature-1/' },
-        { name = 'Feature 2', url = '/features/feature-2/' }
+        { name = 'Feature 1', url = 'features/feature-1/' },
+        { name = 'Feature 2', url = 'features/feature-2/' }
       ]
   [[menu.main]]
     name = 'Pricing'
-    url = '/pricing'
+    url = 'pricing'
     weight = 2
   [[menu.main]]
     name = 'Blog'
-    url = '/blog'
+    url = 'blog'
     weight = 3
