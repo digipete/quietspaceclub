@@ -33,7 +33,7 @@ testimonials:
     primary_button_url="#"
     secondary_button_text="View Pricing"
     secondary_button_url="pricing"
-    hero_image="images/hero-dashboard.svg"
+    hero_image="images/hero-dashboard.png"
     gradient-from="#dbeafe"
     gradient-to="#f3e8ff"
     gradient-angle="180"
