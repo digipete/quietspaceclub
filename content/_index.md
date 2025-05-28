@@ -51,7 +51,7 @@ testimonials:
     description="The 150 check certification ensures your workspaces are designed to minimise sensory overload with features like noise control, adaptable lighting, and quiet zones."
     badge="Neuroflow"
     badgeColor="#2563eb"
-    image="images/feature-1.svg"
+    image="images/feature-1.png"
     buttonText="Learn More"
     buttonLink="features/neuroflow/"
     features="Alignment with the latest standards and expectations for inclusivity,Certifications ensure humans feel valued understood and comfortable, Neuro-inclusive environments increase utilisation reputation and revenue"
