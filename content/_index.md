@@ -72,13 +72,13 @@ testimonials:
 
 {{< feature
     title="Data"
-    description="We deliver well structured data around people and places that can feed generative ai and large language models to make this information more easily available to all internet users."
+    description="We deliver well structured data around people and places that can feed generative ai and language models to make this information acessible to all internet users."
     badge="Inelligence"
     badgeColor="#16a34a"
     image="images/feature-3.png"
     buttonText="Learn More"
     buttonLink="features/developer/"
-    features="Standardised register of certifications,An Index of places that provide for the community,Data for ai to build and learn fron a trusted source"
+    features="Standardised register of certifications,An Index of places that provide for the community,Data for ai to build and learn from a trusted source"
     imagePosition="right"
 >}}
 
