@@ -56,7 +56,7 @@ enableGitInfo = true      # Enable Git info for lastmod
     [params.header.buttons]
       [params.header.buttons.signIn]
         text = 'Sign in'
-        url = 'signin'
+        url = '/signin'
       [params.header.buttons.getStarted]
         text = 'Get Started'
         url = '/get-started'
