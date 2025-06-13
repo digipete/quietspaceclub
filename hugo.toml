@@ -59,7 +59,7 @@ enableGitInfo = true      # Enable Git info for lastmod
         url = 'signin'
       [params.header.buttons.getStarted]
         text = 'Get Started'
-        url = 'get-started'
+        url = '/get-started'
 
   # Global CTA Configuration (optional)
   [params.cta]
@@ -68,7 +68,7 @@ enableGitInfo = true      # Enable Git info for lastmod
     description = 'Join companies using our platform'
     [params.cta.primary_button]
       text = 'Get Started Free'
-      url = 'get-started'
+      url = '/get-started'
     [params.cta.secondary_button]
       text = 'Book Demo'
       url = 'demo'
