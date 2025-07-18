@@ -1,5 +1,5 @@
 # Basic Configuration
-baseURL = 'https://digipete.github.io/quietspaceclub/'
+baseURL = 'https://digipete.github.io/'
 languageCode = 'en-us'
 title = 'Quiet Space Club'
 theme = 'hugo-saasify-theme'
@@ -92,9 +92,9 @@ enableGitInfo = true      # Enable Git info for lastmod
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = 'NeuroFlow', url = '/features/neuroflow/' },
-        { name = 'NeuroIndex', url = '/features/neuroindex/' },
-        { name = 'Data', url = '/features/developer/' }
+        { name = 'NeuroFlow', url = '/quietspaceclub/features/neuroflow/' },
+        { name = 'NeuroIndex', url = '/quietspaceclub/features/neuroindex/' },
+        { name = 'Data', url = '/quietspaceclub/features/developer/' }
       ]
   [[menu.main]]
     name = 'Pricing'
