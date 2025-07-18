@@ -93,7 +93,7 @@ enableGitInfo = true      # Enable Git info for lastmod
       has_submenu = true
       submenu = [
         { name = 'NeuroFlow', url = '/features/neuroflow/' },
-        { name = 'NeuroIndex', url = '/features/neuroindex/' }
+        { name = 'NeuroIndex', url = '/features/neuroindex/' },
         { name = 'Data', url = '/features/developer/' }
       ]
   [[menu.main]]
